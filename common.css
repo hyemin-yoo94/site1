@@ -52,6 +52,12 @@ a {
 
 .img-1 {
     width: 100%;
+    transition: transform 3s;
+}
+
+
+.img-1:hover {
+    transform: scale(1.2);
 }
 
 .con {
